@@ -12,3 +12,10 @@
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
   background-image: url("https://images.pexels.com/photos/2086748/pexels-photo-2086748.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=550");
 }
+.App small {
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  width: 120px;
+  margin-bottom: 10px;
+}
