@@ -16,7 +16,7 @@ export default function Weather() {
           </ul>
         </div>
       </div>
-      <p>Sunny</p>;
+      <p>Sunny</p>
       <div className="row">
         <div className="clearfix">
           <div className="col-auto float-left mt-3">
@@ -39,8 +39,8 @@ export default function Weather() {
         <div className="col-5">
           <br />
           <ul>
-            <li>humidity: 80 %</li>
-            <li>wind: 10 km/h</li>
+            <li>Humidity: 80%</li>
+            <li>Wind: 10km/h</li>
           </ul>
         </div>
       </div>
