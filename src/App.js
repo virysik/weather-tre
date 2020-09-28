@@ -1,22 +1,27 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import Enter from "./Enter";
+import Search from "./Search";
+import City from "./City";
+import Description from "./Description";
+import Weather from "./Weather";
+import Forecast from "./Forecast";
+import Signature from "./Signature";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello from React</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+        <Enter />
+        <Search />
+        <br />
+        <City />
+        <Description />
+        <Weather />
+        <br />
+        <Forecast />
+        <Signature />
+     
     </div>
   );
 }
