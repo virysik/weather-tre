@@ -1,10 +1,10 @@
-.SubmitBtn {
+.Search .SubmitBtn {
   font-size: 20px;
   padding: 2px 22px;
   margin: 0 10px 0 25px;
   height: 38px;
 }
-.CurrentBtn {
+.Search .CurrentBtn {
   font-size: 20px;
   padding: 2px 22px;
   margin: 0 10px;
