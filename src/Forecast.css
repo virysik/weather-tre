@@ -1,0 +1,24 @@
+.Forecast {
+  width: 513px;
+}
+
+.Forecast ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.Forecast li:first-letter {
+  text-transform: capitalize;
+}
+
+.Forecast .time,
+.Forecast .temp {
+  font-size: 17px;
+  color: #fff;
+  text-align: center;
+}
+
+.Forecast .forecast-emoji {
+  width: 60px;
+}

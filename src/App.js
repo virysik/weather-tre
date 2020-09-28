@@ -3,6 +3,7 @@ import "./App.css";
 import Enter from "./Enter";
 import Search from "./Search";
 import Weather from "./Weather";
+import Forecast from "./Forecast";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <br />
       <Weather />
       <br />
+      <Forecast />
     </div>
   );
 }
