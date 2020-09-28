@@ -1,0 +1,63 @@
+.Weather h1 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.Weather li,
+.Weather .Description:first-letter {
+  text-transform: capitalize;
+}
+
+.Weather li {
+  text-align: right;
+  font-size: 17px;
+  color: #fff;
+}
+
+.Weather ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.Weather .Data {
+  margin-top: 10px;
+}
+
+.Weather p {
+  font-size: 20px;
+  margin: 0;
+  width: 200px;
+  text-align: center;
+  color: #fff;
+}
+
+.Weather a {
+  color: #fff;
+}
+
+.Weather .degrees {
+  font-size: 65px;
+  color: #fff;
+}
+
+.Weather .units {
+  position: relative;
+  top: -36px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.Weather .active-link {
+  color: #5a6168;
+  cursor: default;
+}
+
+.Weather .active-link:hover {
+  text-decoration: none;
+  color: #5a6168;
+}

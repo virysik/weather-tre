@@ -11,6 +11,7 @@ function App() {
       <Search />
       <br />
       <Weather />
+      <br />
     </div>
   );
 }
