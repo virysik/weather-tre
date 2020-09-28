@@ -4,6 +4,7 @@ import Enter from "./Enter";
 import Search from "./Search";
 import Weather from "./Weather";
 import Forecast from "./Forecast";
+import Signature from "./Signature";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Weather />
       <br />
       <Forecast />
+      <Signature />
     </div>
   );
 }
